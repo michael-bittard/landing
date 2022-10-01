@@ -1,0 +1,27 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&family=Ubuntu:ital,wght@0,700;1,500;1,700&display=swap");
+
+/* Importing all components file */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colours */
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 22px;
+  background-color: rgb(248, 250, 252);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
